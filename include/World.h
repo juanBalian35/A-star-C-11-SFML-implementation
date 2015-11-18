@@ -37,4 +37,4 @@ public:
 	virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
 };
 
-std::mt19937& getRandomEngine();
+inline std::mt19937& getRandomEngine();
