@@ -114,7 +114,7 @@ void World::randomize(){
 	}
 }
 
-std::mt19937& getRandomEngine(){
+inline std::mt19937& getRandomEngine(){
 	std::mt19937 randomEngine(std::random_device{}());
 	return randomEngine;
 }
