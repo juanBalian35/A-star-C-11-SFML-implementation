@@ -1,6 +1,6 @@
-#Implementation of A star pathfinding algorithm in a tile map with C++ and SFML
+# Implementation of A star pathfinding algorithm in a grid-based map with C++ and SFML
 
-##Tiles:
+## Tiles:
 
 Red tile - Start
 
@@ -12,7 +12,7 @@ White tile - Empty
 
 Blue tile - Path
 
-##Controls:
+## Controls:
 
 Press 'S' to find path
 
@@ -27,3 +27,7 @@ Click wherever you want to add an obstacle
 Click on that obstacle to delete it
 
 Click on the start Tile
+
+## Notes
+
+Make sure to have the font provided at the media folder (it is at the root of the repository) in the same folder of your .exe
