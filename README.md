@@ -1,5 +1,7 @@
 # Implementation of A star pathfinding algorithm in a grid-based map with C++ and SFML
 
+[![Demostration](https://img.youtube.com/vi/2gz8C42sVlE/0.jpg)](https://www.youtube.com/watch?v=2gz8C42sVlE)
+
 ## Tiles:
 
 Red tile - Start
