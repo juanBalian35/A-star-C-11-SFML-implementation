@@ -21,37 +21,37 @@ void Game::run(){
 
 
 void Game::loadTexts(int height){
-	//Load font
-	font.loadFromFile("d:/SFMLpro/Sansation.ttf");
-
+	// Font file goes at the same location as your .exe
+	font.loadFromFile("Sansation.ttf");
+		
 	const auto green = sf::Color(0, 140, 0);
 
 	//set up texts
 	operationsText.setPosition(20.f, height - 110.f);
 	operationsText.setScale(0.5f, 0.5f);
 	operationsText.setFont(font);
-	operationsText.setColor(green);
+	operationsText.setFillColor(green);
 
 	timeText.setPosition(20.f, height - 90.f);
 	timeText.setScale(0.5f, 0.5f);
 	timeText.setFont(font);
-	timeText.setColor(green);
+	timeText.setFillColor(green);
 
 	diagonalEnabledText.setPosition(20.f, height - 70.f);
 	diagonalEnabledText.setScale(0.5f, 0.5f);
 	diagonalEnabledText.setFont(font);
-	diagonalEnabledText.setColor(green);
+	diagonalEnabledText.setFillColor(green);
 	setDiagonalTextString();
 
 	pathFoundText.setPosition(20.f, height - 50.f);
 	pathFoundText.setScale(0.5f, 0.5f);
 	pathFoundText.setFont(font);
-	pathFoundText.setColor(green);
+	pathFoundText.setFillColor(green);
 
 	noTileText.setPosition(20.f, height - 30.f);
 	noTileText.setScale(0.7f, 0.7f);
 	noTileText.setFont(font);
-	noTileText.setColor(sf::Color::Red);
+	noTileText.setFillColor(sf::Color::Red);
 }
 
 void Game::processMouseInput(){
